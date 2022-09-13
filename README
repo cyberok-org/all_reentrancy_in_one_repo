@@ -1,0 +1,8 @@
+репа содержащая в себе все виды reentrancy attack.
+пока на данный момент:
+basic reentrancy - стандартная реетранси через call
+interface reentrancy - реетранси через интерфейсную функцию
+erc721 reentrancy - реетранси в _safeMint::onERC721Received
+to do?:
+1) допилить все reentrancy связанные с erc стандарты контрактов где испольузются каллбеки
+2) запилить все reentrancy связанные со всеми протоколами defi, где есть каллбеки
