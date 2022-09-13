@@ -1,8 +1,8 @@
-репа содержащая в себе все виды reentrancy attack.
-пока на данный момент:
-basic reentrancy - стандартная реетранси через call
-interface reentrancy - реетранси через интерфейсную функцию
-erc721 reentrancy - реетранси в _safeMint::onERC721Received
+repository containing all kinds of reentrancy attack.
+at this moment:
+basic reentrancy - standard reentrancy via call
+interface reentrancy - reentrancy through an interface function
+erc721 reentrancy - reentrancy in _safeMint::onERC721Received
 to do?:
-1) допилить все reentrancy связанные с erc стандарты контрактов где испольузются каллбеки
-2) запилить все reentrancy связанные со всеми протоколами defi, где есть каллбеки
+1) finish all reentrancy attacks related to the standards of erc contracts where callbacks are used
+2) file all reentrancy attacks associated with all defi protocols where there are callbacks
