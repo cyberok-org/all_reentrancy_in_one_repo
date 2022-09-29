@@ -1,9 +1,9 @@
 pragma solidity 0.8.7;
 
 interface IVictim {
-	function balanceOf(address) public payable;
-	function deposit() public payable;
-	function vuln(uint256 amount) public;
+	function balanceOf(address) external;
+	function deposit() external payable;
+	function vuln(uint256 amount) external;
 }
 
 contract Attacker {
